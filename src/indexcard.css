@@ -2,7 +2,7 @@
 .inter-card{
     width: 55%;
     background-color: rgb(14, 37, 59);
-    padding: 0rem 5rem;
+    padding: 3rem 5rem;
 }
 .heard-path{
     display: flex;
@@ -70,7 +70,6 @@ li{
     margin-top: 1.6rem;
     border-radius: 0.5rem;
     padding-bottom: 1rem;
-    margin-bottom: 1rem;
 }
 @media(max-width:720px){
     .content-card{
@@ -136,13 +135,16 @@ img{
         gap: 1rem;
     }
 }
-li{
+.number li{
     list-style: none;
     color: #fff;
     display: flex;
     flex-direction: column;
     padding-top: 0.2rem;
 }
+.number li p{
+    color: #fff;
+ }
 .top,.bottom{
     display: flex;
     justify-content: space-between;
