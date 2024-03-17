@@ -151,6 +151,11 @@ p{
 }
 
 .rights{
-    background-color: rgb(219, 190, 155);
+    background-color: rgb(207, 209, 215);
+    padding: 2rem;
     width: 60%;
+}
+.card-container{
+    background-color:rgb(11, 21, 56);
+    width: 50%;
 }

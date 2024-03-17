@@ -58,20 +58,19 @@ function App() {
                 <button>START CHALLENGE</button>
              </div>
              <div className="rights">
-              
-             <div className="heard">
-                        <p>divfinder</p>
-                        <h1>LIGHT<i></i></h1>
-                    </div>
-                     <form action="" className="search">
-                        <label htmlFor=""><input type="text"  placeholder="Search Github username"/></label>
-                        <button>Search</button>
-                     </form>
-                     {/* {searchResults.map(item =>( */}
-                           <div className="content-card">
-                           <img src="" alt="github" />
+                     <div className="inter-card">
+                        <div className="heard-path">
+                          <p>divfinder</p>
+                          <h1>LIGHT<i></i></h1>
+                        </div>
+                        <form action="" className="search">
+                           <label htmlFor=""><input type="text"  placeholder="Search Github username"/></label>
+                            <button>Search</button>
+                        </form>
+                        <div className="content-card">
                            <div className="content">
                                <div className="firstdiv">
+                                <img src="" alt="github" />
                                    <div className="left">
                                        <h1 className="octos">The octocact</h1>
                                        <p className="link">octocat</p>
@@ -97,7 +96,8 @@ function App() {
                               
                            </div>
                        </div>
-              </div> 
+                     </div> 
+                  </div> 
              </div>
            </div>
         
