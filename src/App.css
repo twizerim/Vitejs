@@ -107,6 +107,7 @@ li a{
     align-items: center;
     padding: 3rem 0rem;
 }
+
 .home{
     width: 88%;
     border: 0.6px solid rgb(35, 33, 33);
@@ -118,9 +119,22 @@ li a{
     align-items: center;
     gap: 2rem;
 }
+@media(max-width:1036px){
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+}
 .left{
     width: 40%;
 }
+@media(max-width:1036px){
+    .left{
+        width: 70%;
+    }
+}
+
 .left .umutwe{
     display: flex;
     justify-content: space-between;
@@ -154,6 +168,11 @@ p{
     background-color: rgb(207, 209, 215);
     padding: 2rem;
     width: 60%;
+}
+@media(max-width:1036px){
+    .rights{
+        width: 90%; 
+    }
 }
 .card-container{
     background-color:rgb(11, 21, 56);

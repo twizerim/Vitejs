@@ -4,6 +4,11 @@
     background-color: rgb(14, 37, 59);
     padding: 3rem 5rem;
 }
+@media(max-width:1036px){
+    .inter-card{
+    width: 60%;
+    }
+}
 .heard-path{
     display: flex;
     justify-content: space-between;
@@ -62,14 +67,20 @@ li{
     border: none;
     color: #fff;
 }
+.local-link .linee,.bottom .linee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    color: #fff;
+}
 .content-card{
     display: flex;
     gap: 2rem;
     background-color: rgba(16, 76, 121, 0.836);
-    padding: 0rem 1.2rem;
+    padding: 1rem 1.2rem;
     margin-top: 1.6rem;
     border-radius: 0.5rem;
-    padding-bottom: 1rem;
 }
 @media(max-width:720px){
     .content-card{
@@ -110,7 +121,7 @@ span{
     padding: 2rem;
 }
 img{ 
-   width: 10px;
+   width: 50px;
    height: 50px;
 }
 .rigthh{

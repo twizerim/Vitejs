@@ -1,8 +1,11 @@
 import {MenuOutlined} from "@ant-design/icons"
 import {GithubOutlined} from "@ant-design/icons"
-// import AddLocationIcon from '@mui/icons-material/AddLocation';
-// import BrightnessHighIcon from '@mui/icons-material/BrightnessHigh';
-// import ZoomInIcon from '@mui/icons-material/ZoomIn'
+import {LinkOutlined} from "@ant-design/icons"
+import {SunOutlined} from "@ant-design/icons"
+import {EnvironmentOutlined} from "@ant-design/icons"
+import {ZoomInOutlined} from "@ant-design/icons"
+import github from "./assets/png-world.png"
+
 
 
 import './App.css'
@@ -61,16 +64,16 @@ function App() {
                      <div className="inter-card">
                         <div className="heard-path">
                           <p>divfinder</p>
-                          <h1>LIGHT<i></i></h1>
+                          <h1>LIGHT<i><SunOutlined /></i></h1>
                         </div>
                         <form action="" className="search">
-                           <label htmlFor=""><input type="text"  placeholder="Search Github username"/></label>
+                           <label htmlFor=""><ZoomInOutlined /><input type="text"  placeholder="Search Github username"/></label>
                             <button>Search</button>
                         </form>
                         <div className="content-card">
                            <div className="content">
                                <div className="firstdiv">
-                                <img src="" alt="github" />
+                                <img src={github} alt="github" />
                                    <div className="left">
                                        <h1 className="octos">The octocact</h1>
                                        <p className="link">octocat</p>
@@ -85,11 +88,11 @@ function App() {
                                </div>
                                <div className="local-link">
                                    <div className="top">
-                                       <p className="linee"><span>San Francisco</span></p>
+                                       <p className="linee"><EnvironmentOutlined /><span>San Francisco</span></p>
                                        <p className="linee"><span>Not available</span></p>
                                    </div>
                                    <div className="bottom">
-                                   <p className="linee"><span>https://gitihub.blog</span></p>
+                                   <p className="linee"><LinkOutlined /><span>https://gitihub.blog</span></p>
                                    <p className="linee"><span>agithub</span></p>
                                    </div>
                                </div>
