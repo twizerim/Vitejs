@@ -129,6 +129,7 @@ li a{
 .left{
     width: 40%;
 }
+
 @media(max-width:1036px){
     .left{
         width: 70%;
@@ -142,9 +143,27 @@ li a{
 }
 .left .umutwe ul{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 1.5rem;
+}
+.left .umutwe ul li .a{
+    background-color: rgb(12, 12, 76);
+    border-radius: 0.6rem;
+    padding: 0.3rem 1rem;
+    color: #fff;
+}
+.left .umutwe ul li .b{
+    color: aqua;
+}
+.left .umutwe ul li .c{
+    color: rgb(24, 24, 101);
+}
+.left .umutwe ul li .d{
+    color: violet;
+}
+.left .umutwe ul li .e{
+    color: rgb(29, 89, 29);
 }
 .umutwe p{
     border-radius: 0.2rem;
@@ -168,6 +187,7 @@ p{
     background-color: rgb(207, 209, 215);
     padding: 2rem;
     width: 60%;
+    position: relative;
 }
 @media(max-width:1036px){
     .rights{
@@ -177,4 +197,26 @@ p{
 .card-container{
     background-color:rgb(11, 21, 56);
     width: 50%;
+}
+
+.startform{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    background-color: rgb(146, 142, 142);
+    z-index: 9999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 4rem;
+    
+    border-radius: 1rem;
+}
+.startform .close{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.closes{
+    font-size: 2rem;
 }
