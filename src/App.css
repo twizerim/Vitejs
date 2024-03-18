@@ -165,6 +165,9 @@ li a{
 .left .umutwe ul li .e{
     color: rgb(29, 89, 29);
 }
+.umutwe button{
+    background-color: red;
+}
 .umutwe p{
     border-radius: 0.2rem;
     border: 0.4px solid rgb(150, 214, 54);
@@ -219,4 +222,10 @@ p{
 }
 .closes{
     font-size: 2rem;
+}
+.startform li{
+    background-color: #000;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
 }
