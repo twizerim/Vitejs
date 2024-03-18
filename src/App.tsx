@@ -58,7 +58,7 @@ function App() {
            <div className="home">
              <div className="left">
                <div className="umutwe">
-                 <ul>
+                 <ul className="leftlink">
                  <li><a href="#" className="a">PREMIUM</a></li>
                  <li><a href="#" className="b">HTML</a></li>
                  <li><a href="#" className="c">CSS</a></li>
@@ -159,7 +159,8 @@ function App() {
                               
                            </div>
                        </div>
-                     </div>  
+                     </div>
+                      
                   </div> 
              </div>
            </div>
